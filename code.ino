@@ -138,7 +138,7 @@ void loop(){
         char c = client.read();          // read a byte
           if (c == '\n') {                      // check for newline character,
           if (currentLine.length() == 0) {  // if line is blank it means its the end of the client HTTP request
-      
+      //create website with google maps api
 yazi="<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width, initial-scale=1.0'><meta http-equiv='X-UA-Compatible' content='ie=edge'><title>My Google Map</title><style>#map{height:400px;width:100%;}</style></head> <body><h1>My Google Map</h1><div id='map'></div><script>function initMap(){var options = {zoom:8,center:{lat:";
     yazi+=flat;
     yazi+=",lng:";
@@ -169,6 +169,9 @@ yazi+="}}];for(var i = 0;i < markers.length;i++){addMarker(markers[i]);}function
     Serial.println("client disconnected");
     }
 }
+
+
+//check if the gps data is updated or not
 static void smartdelay(unsigned long ms)
 {
   unsigned long start = millis();
