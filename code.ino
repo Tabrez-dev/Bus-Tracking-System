@@ -16,15 +16,15 @@ TinyGPS gps;
 #include <SoftwareSerial.h>
 SoftwareSerial ss(16,17);//arduino rx,tx
 #include <WiFi.h>
-const char* ssid     = "Tab";
-const char* password = "123456789";
+const char* ssid     = "";
+const char* password = "";
 WiFiServer server(80);
 String yazi;
 
 //for thngspeak interface
 WiFiClient  client;
-unsigned long Channel_ID = 1873256;     //thingspeak 
-const char * API_Key = "2CZJFL968HS5IXR1";
+unsigned long Channel_ID = ;     //thingspeak 
+const char * API_Key = "";
 unsigned long last_time = 0;
 unsigned long Delay = 5000;
 
