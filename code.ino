@@ -30,14 +30,14 @@ unsigned long Delay = 5000;
 
 //TWILIO
 
-static const char *account_sid = "ACe64315c421fb501ca4b3536277251ca6";
-static const char *auth_token = "7328d9d51cb4674eb8385bf0339b721f";
+static const char *account_sid = "";
+static const char *auth_token = "";
 // Phone number should start with "+<countrycode>"
-static const char *from_number = "+15736523616";
+static const char *from_number = "";
 static const char *message="406- BASAVANAHALLI NEXT STOP NELMANGALA. Live location: 192.168.254.41";
 // You choose!
 // Phone number should start with "+<countrycode>"
-static const char *to_number = "+919591777586";
+static const char *to_number = "";
   String response;
 //  Kempegowda Bus Station, Majestic, Anand Rao Circle, Race Course Road, Sivananda Stores, Bangalore Golf Course, Windsor Manor, Palace Guttahalli, Cauvery Theater,
 Twilio *twilio;
